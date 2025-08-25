@@ -9,3 +9,14 @@ The Railway Point Machine (RPM) serves as a critical component in railway system
 ## Sensitivity Analysis
 
 
+#### CWRU
+Sensitivity analysis of self-supervised weight ($\alpha$) and distillation weight ($\beta$) in the pre-training phase using the CWRU dataset, with results presented for various N-way M-shot configurations.
+
+
+#### HUST
+Sensitivity analysis of self-supervised weight ($\alpha$) and distillation weight ($\beta$) in the pre-training phase using the HUST dataset, with results presented for various N-way M-shot configurations.
+
+
+#### BJTU-RAO
+Sensitivity analysis of self-supervised weight ($\alpha$) and distillation weight ($\beta$) in the pre-training phase using the BJTU dataset, with results presented for various $N$-way $M$-shot configurations.
+
