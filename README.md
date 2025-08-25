@@ -1,1 +1,7 @@
 # S3DPN
+
+
+
+## Abstract
+The Railway Point Machine (RPM) serves as a critical component in railway systems, yet its high reliability results in extreme fault data scarcity, posing significant challenges for data-driven RPM fault diagnosis. Although existing small-sample learning methods for RPM have demonstrated promising potential, they still face three fundamental limitations: (1) over-reliance on limited RPM fault data while neglecting available external mechanical fault datasets, (2) insufficient prototype representation caused by inadequate feature learning from scarce samples, and (3) exacerbated overfitting tendencies due to complex optimization procedures under small-sample conditions. To address these limitations, we propose the Self-Supervised and Self-Distilled Prototypical Network (S3DPN), which systematically resolves these issues through: (1) self-supervised pretraining with external mechanical fault data to enrich feature representations, (2) prototype-based fine-tuning with auxiliary self-supervised losses to enhance inter-class separability, and (3) a simplified self-distillation strategy that maintains computational efficiency while effectively mitigating overfitting. Extensive experiments on real-world ZDJ9-type RPM datasets demonstrate that S3DPN consistently outperforms state-of-the-art methods across various small-sample scenarios. Our code will be released at https://github.com/rookiemyf/S3DPN.
+
